@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Severance Pay Calculator — What Should You Get? | SeveranceCalc</title>
+<meta name="description" content="Is your severance fair? Tenure norms, a package grade and what to negotiate.">
+<link rel="canonical" href="https://severancecalc.fixoraa.tech/">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Severance Pay Calculator — What Should You Get? | SeveranceCalc">
+<meta property="og:description" content="Is your severance fair? Tenure norms, a package grade and what to negotiate.">
+<meta property="og:url" content="https://severancecalc.fixoraa.tech/">
+<meta property="og:type" content="website">
+<script defer src="https://t.fixoraa.tech/track.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;500;700;900&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "name": "SeveranceCalc",
+      "url": "https://severancecalc.fixoraa.tech",
+      "applicationCategory": "Career Tools",
+      "operatingSystem": "Web",
+      "description": "Is your severance fair? Tenure norms, a package grade and what to negotiate.",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type":"Question","name":"How is severance pay normally calculated?","acceptedAnswer":{"@type":"Answer","text":"The most common formula is one to two weeks of pay per year of service, with most large employers near one week per year, a floor of about four weeks, and a practical cap around 26 weeks. Executives with contracts often receive six to twelve months. There is no federal law requiring severance \u2014 it comes from company policy, contracts, and negotiation."}},
+        {"@type":"Question","name":"Is my severance package negotiable?","acceptedAnswer":{"@type":"Answer","text":"Usually yes. The first offer is an opening position, and companies expect some negotiation \u2014 especially on the number of weeks, healthcare continuation, bonus treatment, and non-compete scope. Anchor your ask to specifics like tenure, performance reviews, and market norms, and get every change in writing before signing."}},
+        {"@type":"Question","name":"What is a severance release and should I sign it?","acceptedAnswer":{"@type":"Answer","text":"The release waives your right to sue the company over your employment and termination \u2014 it is what the company is buying with the severance. Workers over 40 get at least 21 days to consider it (45 in group layoffs) plus 7 days to revoke. Have an employment lawyer review it before signing, especially the non-compete."}},
+        {"@type":"Question","name":"Lump sum or salary continuation \u2014 which is better?","acceptedAnswer":{"@type":"Answer","text":"A lump sum gives cash now and a clean break but can bunch income into one tax year and may affect unemployment eligibility. Salary continuation keeps benefits running longer and spreads the tax hit but can delay unemployment. Model both against your state's rules and your cash needs before choosing."}},
+        {"@type":"Question","name":"How is severance taxed?","acceptedAnswer":{"@type":"Answer","text":"As ordinary wages \u2014 federal and state income tax plus Social Security and Medicare apply, usually withheld at the 22% flat supplemental rate. A big lump sum can push you into a higher bracket, so the withholding may fall short; set aside the difference. Consider asking to split a late-year payment across January."}},
+        {"@type":"Question","name":"What should I negotiate besides weeks of pay?","acceptedAnswer":{"@type":"Answer","text":"Extended healthcare or paid COBRA, pro-rated bonus payout, accrued PTO payout, extended stock-option exercise windows, outplacement services, an agreed reference and departure announcement, and narrower non-compete terms. Several of these cost the company little and can be worth more than an extra week of pay."}}
+      ]
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#FAF3F2;--surface:#FFFFFF;--tint:#F4DEDD;--accent:#A53127;--accentdeep:#882D25;--accent-ink:#FFFFFF;--ink:#33201F;--muted:#785754;--line:#DCAAA6;--footmuted:#BEB4B3;--footlink:#FAF0F0;--bodyfont:'Vesper Libre',Georgia,serif;--headfont:'Vesper Libre',Georgia,serif}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{font-family:var(--bodyfont);background:var(--bg);color:var(--ink);line-height:1.65;font-size:16px}
+.fx-container{max-width:1120px;margin:0 auto;padding:0 20px}
+.fx-header{background:var(--surface);border-bottom:3px solid var(--accent);position:sticky;top:0;z-index:50}
+.fx-header .fx-container{display:flex;align-items:center;gap:14px;padding:12px 20px;flex-wrap:wrap}
+.fx-logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink)}
+.fx-tile{width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accentdeep));color:var(--accent-ink);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:22px;box-shadow:0 3px 0 rgba(0,0,0,.12)}
+.fx-name{font-weight:800;font-size:20px;letter-spacing:-.02em;font-family:var(--headfont)}
+.fx-nav{margin-left:auto;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.fx-btn{display:inline-block;padding:9px 18px;border-radius:999px;font-weight:700;font-size:14px;text-decoration:none;border:2px solid var(--accent);color:var(--accent);transition:transform .12s ease;background:transparent}
+.fx-btn:hover{transform:translateY(-1px)}
+.fx-btn.solid{background:var(--accent);color:var(--accent-ink)}
+.fx-badge{display:inline-block;padding:7px 14px;border-radius:999px;background:var(--tint);color:var(--accentdeep);font-weight:700;font-size:13px;border:1.5px dashed var(--accent)}
+.article-sec{margin:44px 0;max-width:800px}
+.article-sec h2{font-size:24px;letter-spacing:-.01em;margin:34px 0 12px;font-weight:800;font-family:var(--headfont)}
+.article-sec p{margin-bottom:14px}
+.article-sec ul,.article-sec ol{margin:0 0 14px 22px}
+.article-sec li{margin-bottom:6px}
+.faq-sec{margin:36px 0;max-width:800px}
+.faq-sec h2{font-size:24px;font-weight:800;letter-spacing:-.01em;margin-bottom:16px;font-family:var(--headfont)}
+.faq-sec details{background:var(--surface);border:2px solid var(--line);border-radius:14px;margin-bottom:10px;overflow:hidden}
+.faq-sec summary{padding:16px 18px;font-weight:700;cursor:pointer;list-style:none;font-size:16px}
+.faq-sec summary::-webkit-details-marker{display:none}
+.faq-sec summary:hover{color:var(--accent)}
+.faq-sec details[open] summary{border-bottom:2px solid var(--line);color:var(--accent)}
+.faq-sec details p{padding:14px 18px;font-size:15px}
+.fx-footer{background:var(--ink);color:var(--bg);margin-top:48px;padding:40px 0 34px}
+.fx-footer .fx-brand{font-size:22px;font-weight:800;margin-bottom:8px;color:#fff;font-family:var(--headfont)}
+.fx-footer p{font-size:15px;color:var(--footmuted);max-width:640px;margin-bottom:14px}
+.fx-footer nav{display:flex;gap:18px;margin-bottom:16px}
+.fx-footer nav a{color:#fff;font-weight:700;text-decoration:none;border-bottom:2px solid var(--accent)}
+.fx-credit{font-size:14px!important}
+.fx-credit a{color:var(--footlink);font-weight:700}
+@media(max-width:760px){.fx-nav{margin-left:0}}
+
+.sc-hero{padding:44px 0 6px;text-align:center}
+.sc-eyebrow{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);border:2px solid var(--accent);padding:6px 16px;border-radius:4px;margin-bottom:16px}
+.sc-hero h1{font-size:clamp(32px,5vw,50px);line-height:1.1;font-weight:700;margin-bottom:12px}
+.sc-sub{font-size:18px;color:var(--muted);max-width:640px;margin:0 auto}
+.sc-sheet{margin:30px auto 10px;max-width:860px;background:var(--surface);border:2px solid var(--line);border-radius:6px;box-shadow:0 14px 34px rgba(165,49,39,.10);overflow:hidden}
+.sc-sheet-head{background:var(--tint);border-bottom:3px double var(--accent);padding:20px 28px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.sc-sheet-head h2{font-size:20px;font-weight:900;letter-spacing:.06em}
+.sc-sheet-head .sub{font-size:13px;color:var(--muted)}
+.sc-stamp{margin-left:auto;width:92px;height:92px;border:4px solid var(--accent);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:44px;font-weight:900;color:var(--accent);transform:rotate(-8deg);background:rgba(255,255,255,.6)}
+.sc-grid{display:grid;grid-template-columns:1fr 1fr;gap:0}
+.sc-inputs{padding:26px;border-right:2px solid var(--line)}
+.sc-field{margin-bottom:18px}
+.sc-field label{display:block;font-weight:700;font-size:14px;margin-bottom:7px}
+.sc-field input{font:inherit;font-size:18px;font-weight:700;padding:11px 13px;border:2px solid var(--line);border-radius:8px;width:100%;color:var(--ink);background:#fff}
+.sc-field input:focus{outline:3px solid var(--tint);border-color:var(--accent)}
+.sc-out{padding:26px;background:linear-gradient(180deg,#fff,var(--bg))}
+.sc-row{display:flex;justify-content:space-between;gap:10px;padding:11px 2px;border-bottom:1px solid var(--line);font-size:15px}
+.sc-row:last-child{border-bottom:0}
+.sc-row .k{color:var(--muted)}
+.sc-row .v{font-weight:700;text-align:right;font-variant-numeric:tabular-nums}
+.sc-verdict{margin-top:14px;background:var(--ink);color:#fff;border-radius:8px;padding:16px 18px;font-size:15px}
+.sc-verdict strong{color:var(--tint)}
+.sc-check{max-width:860px;margin:22px auto 0;background:var(--surface);border:2px solid var(--line);border-radius:6px;padding:24px 26px}
+.sc-check h2{font-size:20px;font-weight:900;margin-bottom:6px}
+.sc-check p{font-size:14px;color:var(--muted);margin-bottom:14px}
+.sc-item{display:flex;gap:12px;align-items:flex-start;padding:11px 4px;border-bottom:1px dashed var(--line);cursor:pointer;font-size:15px}
+.sc-item:last-child{border-bottom:0}
+.sc-item input{width:20px;height:20px;margin-top:3px;accent-color:var(--accent);flex-shrink:0}
+.sc-item.done span{color:var(--muted);text-decoration:line-through}
+@media(max-width:760px){.sc-grid{grid-template-columns:1fr}.sc-inputs{border-right:0;border-bottom:2px solid var(--line)}.sc-stamp{margin-left:0}}
+
+</style>
+</head>
+<body>
+<header class="fx-header">
+  <div class="fx-container">
+    <a class="fx-logo" href="https://severancecalc.fixoraa.tech/" aria-label="SeveranceCalc home">
+      <span class="fx-tile" aria-hidden="true">&#128196;</span>
+      <span class="fx-name">SeveranceCalc</span>
+    </a>
+    <nav class="fx-nav" aria-label="Site">
+      <a class="fx-btn" href="https://fixoraa.tech">Home</a>
+      <a class="fx-btn solid" href="https://fixoraa.tech">More Tools</a>
+      <span class="fx-badge">&#8734; Unlimited Free Usage</span>
+    </nav>
+  </div>
+</header>
+<div class="no-print mx-auto max-w-6xl px-4 sm:px-6 pt-4" role="complementary" aria-label="Advertisement">
+  <div class="mx-auto text-center" style="max-width:728px">
+    <span class="block text-[10px] tracking-[0.18em] uppercase text-slate-400 mb-1.5">Advertisement</span>
+    <div class="flex justify-center overflow-hidden">
+      <div class="origin-top scale-[0.44] sm:scale-100 shrink-0">
+        <script>
+          atOptions = { 'key' : '4e68ac77881c17fe128a46565d9a4e8c', 'format' : 'iframe', 'height' : 90, 'width' : 728, 'params' : {} };
+        </script>
+        <script src="https://www.highrevenueformat.com/4e68ac77881c17fe128a46565d9a4e8c/invoke.js"></script>
+      </div>
+    </div>
+  </div>
+</div>
+<main class="fx-container">
+<section class="sc-hero">
+    <span class="sc-eyebrow">Know your number</span>
+    <h1>Severance Pay Calculator</h1>
+    <p class="sc-sub">Laid off? The first offer is rarely the final offer. See what tenure norms say you should get, grade your package, and negotiate the rest.</p>
+  </section>
+  <section class="sc-sheet" aria-label="SeveranceCalc tool">
+    <div class="sc-sheet-head">
+      <div><h2>SEVERANCE DEAL SHEET</h2><div class="sub">Market norm: 1 week per year of service &middot; min 4 weeks &middot; cap 26 weeks</div></div>
+      <div class="sc-stamp" id="sc-grade">–</div>
+    </div>
+    <div class="sc-grid">
+      <div class="sc-inputs">
+        <div class="sc-field"><label for="sc-years">Years of service</label><input type="number" id="sc-years" value="6" min="0" max="50" step="0.5"></div>
+        <div class="sc-field"><label for="sc-pay">Weekly pay ($)</label><input type="number" id="sc-pay" value="1800" min="0" step="50"></div>
+        <div class="sc-field"><label for="sc-offered">Weeks offered in your package</label><input type="number" id="sc-offered" value="6" min="0" step="0.5"></div>
+      </div>
+      <div class="sc-out" aria-live="polite">
+        <div class="sc-row"><span class="k">Market-norm weeks</span><span class="v" id="sc-normw">–</span></div>
+        <div class="sc-row"><span class="k">Market-norm pay</span><span class="v" id="sc-normp">–</span></div>
+        <div class="sc-row"><span class="k">Your package</span><span class="v" id="sc-offp">–</span></div>
+        <div class="sc-row"><span class="k">Gap vs norm</span><span class="v" id="sc-gap">–</span></div>
+        <div class="sc-verdict" id="sc-verdict">Enter your numbers to grade the package.</div>
+      </div>
+    </div>
+  </section>
+  <section class="sc-check" aria-label="Negotiation checklist">
+    <h2>Negotiation checklist</h2>
+    <p>Severance is negotiable far more often than people think. Work this list before you sign the release.</p>
+    <label class="sc-item"><input type="checkbox"><span><strong>More weeks of pay.</strong> Ask for 2–4 weeks above the offer; cite your tenure, performance reviews, and age-protected status if relevant.</span></label>
+    <label class="sc-item"><input type="checkbox"><span><strong>Extended healthcare.</strong> Push for 3–6 months of continued coverage or COBRA premiums paid — often worth more than an extra week of pay.</span></label>
+    <label class="sc-item"><input type="checkbox"><span><strong>Unused PTO and bonuses.</strong> Confirm accrued vacation is paid out (required in many states) and ask for a pro-rated annual bonus.</span></label>
+    <label class="sc-item"><input type="checkbox"><span><strong>Non-compete review.</strong> Have an employment lawyer read the non-compete and non-solicitation clauses; negotiate the scope down or the duration shorter.</span></label>
+    <label class="sc-item"><input type="checkbox"><span><strong>Reference and announcement.</strong> Get the reference language and the internal departure announcement agreed in writing.</span></label>
+    <label class="sc-item"><input type="checkbox"><span><strong>Equity treatment.</strong> Ask about accelerated vesting or an extended exercise window for stock options — 90 days is standard, and often negotiable.</span></label>
+    <label class="sc-item"><input type="checkbox"><span><strong>Outplacement help.</strong> Request 3–6 months of outplacement services; it costs the company little and helps you land faster.</span></label>
+    <label class="sc-item"><input type="checkbox"><span><strong>Payment structure.</strong> Lump sum vs salary continuation affects taxes, unemployment eligibility, and benefit timing — model both before choosing.</span></label>
+  </section>
+  <article class="article-sec" aria-label="Guide">
+<h2>What Severance Usually Looks Like</h2>
+    <p>There is no federal law requiring severance pay in the United States — it is a matter of company policy, employment contracts, and negotiation. That said, a strong market norm has emerged: <strong>one to two weeks of pay per year of service</strong>. Most large employers land near one week per year, with a floor of about four weeks for short-tenure employees and a practical ceiling around 26 weeks (six months) for long-tenured staff. Executives with employment agreements often do far better — six to twelve months is common at the VP level and above.</p>
+    <p>Why one week per year? It roughly tracks how long it takes to find a comparable job: about a month of search per year of tenure is the folk wisdom, and severance bridges part of that gap. Companies also use severance to buy something valuable — your signature on a release of claims — which is precisely why the number is negotiable. The calculator above encodes the one-week-per-year norm with a four-week floor and a 26-week cap so you can see exactly where any offer stands.</p>
+    <h2>How to Read Your Package</h2>
+    <p>A severance package is more than the headline weeks. Read the agreement end to end and inventory every component: the cash (weeks of base pay — is commission or bonus included?), continued benefits (health insurance, and for how long?), accrued obligations (unused vacation, which many states require be paid regardless), equity (what happens to unvested shares and your option exercise window?), and the strings attached (the release of claims, non-compete, non-disparagement, and confidentiality clauses).</p>
+    <p>Then grade it honestly. An offer at or above the tenure norm with continued healthcare is a solid B or better. An offer below 75 percent of the norm — the D range in the calculator — is a signal to negotiate, not a verdict to accept. Remember that HR expects negotiation on severance far more than candidates realize; the first number is an opening position, and departures are one of the few moments when the company is motivated to make you feel fairly treated.</p>
+    <h2>Everything Beyond the Weeks Is Negotiable</h2>
+    <p>The weeks of pay get the attention, but the side terms often matter more. <strong>Healthcare continuation</strong> tops the list: three to six months of paid COBRA can be worth $3,000 to $6,000 for family coverage, and it removes the terror of a coverage gap. <strong>Bonus treatment</strong> is next — if you worked most of the bonus year, ask for a pro-rated payout; companies grant this more often than their initial offer suggests.</p>
+    <p><strong>Equity</strong> deserves its own conversation. Standard option agreements give you 90 days after departure to exercise vested options, after which they evaporate. Negotiating an extended exercise window — one to two years — can be worth tens of thousands if the options are valuable but illiquid. For unvested shares, partial acceleration is occasionally granted, especially in acquisitions. <strong>Outplacement services</strong>, <strong>an agreed reference</strong>, and <strong>the wording of the departure announcement</strong> cost the company almost nothing and help you enormously — always ask.</p>
+    <h2>Lump Sum vs Salary Continuation</h2>
+    <p>Companies typically offer severance as a lump sum or as salary continuation (paychecks keep coming for the severance period). The choice has real consequences. A lump sum gives you cash now and a clean break, but it can push you into a higher tax bracket for the year and may disqualify you from unemployment benefits in some states. Salary continuation keeps benefits running longer and spreads the tax hit, but it can delay unemployment eligibility and sometimes comes with clawback strings if you find work quickly.</p>
+    <p>There is no universally right answer — model both against your situation. If you need cash for the job search and your state allows unemployment alongside a lump sum, take the lump. If healthcare continuation is the priority and continuation extends it, lean that way. And whatever you choose, get the payment schedule, tax withholding treatment, and benefit end dates in writing.</p>
+    <h2>The Release: Read Before You Sign</h2>
+    <p>Every severance agreement includes a general release — you waive the right to sue the company over your employment and termination. That is the product the company is buying, and you should price it accordingly. Federal law gives workers over 40 special protections here: under the Older Workers Benefit Protection Act, you must get at least 21 days to consider the agreement (45 days in a group layoff) and 7 days to revoke after signing. Do not let anyone rush you past those windows.</p>
+    <p>Pay particular attention to the non-compete and non-disparagement clauses. Non-competes are now restricted or unenforceable in a growing number of states, but where they apply they can sideline you for a year — negotiate the scope narrower, the duration shorter, or additional pay for the restricted period. Non-disparagement should be mutual: the company should agree not to badmouth you, not just the reverse. For any package above a few weeks of pay, a one-hour review with an employment lawyer (typically $300–$600) is the best money you will spend in the process.</p>
+    <h2>Negotiation Scripts That Work</h2>
+    <p>Keep the tone collaborative — you are asking a former employer for a better parting, not making demands. Open with appreciation, anchor to specifics, and make one clear ask at a time: "Thank you for putting this together. Given my eight years here and the performance ratings in my file, I'd like to discuss moving from eight weeks to twelve. Can we also extend the healthcare continuation to six months?" Silence after the ask is fine; let them respond.</p>
+    <p>Your leverage comes from specifics, not threats. Strong performance reviews, a layoff that skews older (which raises the company's legal risk), unique knowledge the company still needs during transition, and a competing timeline ("I'd like to resolve this by Friday so we can both move on") all help. Put every agreed change in a revised written agreement before signing — verbal promises from HR do not survive the paperwork.</p>
+    <h2>Taxes on Severance</h2>
+    <p>Severance is taxed as ordinary wages: federal income tax, state tax, Social Security and Medicare all apply, and employers typically withhold at the 22 percent flat supplemental rate. A large lump sum can still push your total annual income into a higher bracket, so the withholding may not cover the full bill — set aside the difference. One planning note: if the layoff happens late in the year, ask whether the payment can be split across January; deferring half the income into a lower-earning year can save real money. This is general information, not tax advice — a CPA is worth consulting for large packages.</p>
+    <h2>Your First Two Weeks After a Layoff</h2>
+    <p>Once the package is settled, move fast on logistics: file for unemployment immediately (there is often a waiting week), confirm your health coverage end date and elect COBRA or marketplace coverage before any gap, roll your 401(k) into an IRA rather than cashing it out, download pay stubs and benefits documents while you still have system access, and connect with colleagues on LinkedIn while names are fresh. Then give yourself a brief, deliberate pause. The data is consistent: people who treat the search as a structured project — not a panic — land better roles faster. The severance bought you runway. Use it.</p>
+  <h2>Health Insurance After Your Last Day</h2>
+<p>Losing a job usually means losing health coverage at month's end, and this decision has a deadline. COBRA lets you keep your exact plan for up to eighteen months, but you pay the full premium plus a two percent fee — often shockingly expensive. The ACA marketplace frequently offers cheaper comparable plans, especially if your income drops, and losing job-based coverage triggers a sixty-day special enrollment window.</p>
+<p>Do the math within the first two weeks: compare your COBRA premium against marketplace plans at your new income level, and check whether a spouse's plan can add you. Do not let coverage lapse while deciding — one emergency room visit without insurance can erase the entire severance. Once insured, redirect your energy to the job search itself.</p>
+</article>
+  <section class="faq-sec" aria-label="Frequently asked questions">
+    <h2>Frequently asked questions</h2>
+<details><summary>How is severance pay normally calculated?</summary><p>The most common formula is one to two weeks of pay per year of service, with most large employers near one week per year, a floor of about four weeks, and a practical cap around 26 weeks. Executives with contracts often receive six to twelve months. There is no federal law requiring severance — it comes from company policy, contracts, and negotiation.</p></details>
+<details><summary>Is my severance package negotiable?</summary><p>Usually yes. The first offer is an opening position, and companies expect some negotiation — especially on the number of weeks, healthcare continuation, bonus treatment, and non-compete scope. Anchor your ask to specifics like tenure, performance reviews, and market norms, and get every change in writing before signing.</p></details>
+<details><summary>What is a severance release and should I sign it?</summary><p>The release waives your right to sue the company over your employment and termination — it is what the company is buying with the severance. Workers over 40 get at least 21 days to consider it (45 in group layoffs) plus 7 days to revoke. Have an employment lawyer review it before signing, especially the non-compete.</p></details>
+<details><summary>Lump sum or salary continuation — which is better?</summary><p>A lump sum gives cash now and a clean break but can bunch income into one tax year and may affect unemployment eligibility. Salary continuation keeps benefits running longer and spreads the tax hit but can delay unemployment. Model both against your state&#x27;s rules and your cash needs before choosing.</p></details>
+<details><summary>How is severance taxed?</summary><p>As ordinary wages — federal and state income tax plus Social Security and Medicare apply, usually withheld at the 22% flat supplemental rate. A big lump sum can push you into a higher bracket, so the withholding may fall short; set aside the difference. Consider asking to split a late-year payment across January.</p></details>
+<details><summary>What should I negotiate besides weeks of pay?</summary><p>Extended healthcare or paid COBRA, pro-rated bonus payout, accrued PTO payout, extended stock-option exercise windows, outplacement services, an agreed reference and departure announcement, and narrower non-compete terms. Several of these cost the company little and can be worth more than an extra week of pay.</p></details>
+  </section>
+</main>
+<div class="no-print mx-auto max-w-6xl px-4 sm:px-6 pb-4" role="complementary" aria-label="Advertisement">
+  <div class="mx-auto text-center" style="max-width:300px">
+    <span class="block text-[10px] tracking-[0.18em] uppercase text-slate-400 mb-1.5">Advertisement</span>
+    <div class="flex justify-center overflow-hidden">
+      <script>
+      (function(grnp){
+      var d = document,
+          s = d.createElement('script'),
+          l = d.currentScript || d.scripts[d.scripts.length - 1];
+      s.settings = grnp || {};
+      s.src = "\/\/peacefulbicycle.com\/bnXtVJsnd.GElF0oYVWQcY\/Qe\/mf9qu-ZqUtlZk\/PzTHcx1LM\/jWIZwkMTj\/U\/t-NrzmUnyOMsj\/AzydO\/Qx";
+      s.async = true;
+      s.referrerPolicy = 'no-referrer-when-downgrade';
+      l.parentNode.insertBefore(s, l);
+      })({})
+      </script>
+    </div>
+  </div>
+</div>
+<footer class="fx-footer">
+  <div class="fx-container">
+    <div class="fx-brand">SeveranceCalc</div>
+    <p>SeveranceCalc grades your severance package against tenure norms — and gives you the negotiation checklist that can add weeks of pay.</p>
+    <nav aria-label="Footer">
+      <a href="https://fixoraa.tech">Home</a>
+      <a href="https://fixoraa.tech">More Tools</a>
+    </nav>
+    <p class="fx-credit">Made by <a href="https://fixoraa.tech">Fixoraa</a> &middot; Free forever, no signup.</p>
+  </div>
+</footer>
+<script>
+/* SeveranceCalc — pure logic. Market norm: 1 week of pay per year of
+   service, minimum 4 weeks, capped at 26 weeks. Grades the offered package. */
+function severanceCalc(years, weeklyPay, offeredWeeks) {
+  years = Math.max(0, Number(years) || 0);
+  weeklyPay = Math.max(0, Number(weeklyPay) || 0);
+  offeredWeeks = Math.max(0, Number(offeredWeeks) || 0);
+  var normWeeks = Math.min(26, Math.max(4, Math.round(years)));
+  var normPay = normWeeks * weeklyPay;
+  var offeredPay = offeredWeeks * weeklyPay;
+  var ratio = normWeeks > 0 ? offeredWeeks / normWeeks : 0;
+  var grade = ratio >= 1.25 ? 'A' : ratio >= 1 ? 'B' : ratio >= 0.75 ? 'C' : 'D';
+  return {
+    normWeeks: normWeeks,
+    normPay: normPay,
+    offeredPay: offeredPay,
+    grade: grade,
+    gapWeeks: normWeeks - offeredWeeks
+  };
+}
+
+if (typeof document !== 'undefined') {
+  // Page wiring (deal sheet + checklist) goes in the HTML inline script.
+}
+
+</script>
+<script>
+(function(){
+  function v(id){return parseFloat(document.getElementById(id).value)||0;}
+  function fmt(n,d){return n.toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d});}
+  var GRADES={
+    A:['Excellent — at or above 125% of the tenure norm. This is a strong package; focus negotiation on side terms like healthcare and equity.','var(--accent)'],
+    B:['Fair — meets the tenure norm. Reasonable to accept, but still worth asking for extended healthcare or a pro-rated bonus.','var(--accent)'],
+    C:['Below norm — 75–100% of what tenure norms suggest. Negotiate: cite your years of service and ask for 2–4 more weeks.','var(--accent)'],
+    D:['Weak — under 75% of the norm. Do not accept as-is: negotiate weeks, healthcare continuation, and have a lawyer review the release.','var(--accent)']
+  };
+  function calc(){
+    var r=severanceCalc(v('sc-years'),v('sc-pay'),v('sc-offered'));
+    document.getElementById('sc-normw').textContent=r.normWeeks+' weeks';
+    document.getElementById('sc-normp').textContent='$'+fmt(r.normPay,0);
+    document.getElementById('sc-offp').textContent='$'+fmt(r.offeredPay,0);
+    var gap=r.gapWeeks;
+    document.getElementById('sc-gap').textContent=(gap>0?'−':'+')+fmt(Math.abs(gap),1).replace('−','')+' weeks'+(gap<=0?' ahead':' short');
+    document.getElementById('sc-grade').textContent=r.grade;
+    document.getElementById('sc-grade').style.borderColor='var(--accent)';
+    document.getElementById('sc-grade').style.color='var(--accent)';
+    var g=GRADES[r.grade];
+    document.getElementById('sc-verdict').innerHTML='<strong>Grade '+r.grade+'.</strong> '+g[0];
+  }
+  ['sc-years','sc-pay','sc-offered'].forEach(function(id){document.getElementById(id).addEventListener('input',calc);});
+  document.querySelectorAll('.sc-item input').forEach(function(cb){
+    cb.addEventListener('change',function(){this.closest('.sc-item').classList.toggle('done',this.checked);});
+  });
+  calc();
+})();
+</script>
+</body>
+</html>
